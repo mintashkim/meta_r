@@ -1,0 +1,9 @@
+Sun Oct 27 09:32:24 2024
+WARNING: mju_openResource: unknown file 'half_cheetah.xml'
+
+Sun Oct 27 09:32:41 2024
+WARNING: mju_openResource: unknown file './half_cheetah.xml'
+
+Wed Oct 30 10:57:53 2024
+WARNING: mju_openResource: unknown file '/Users/mintaekim/Desktop/HRL/Quadrotor/quadrotor_meta_v0/meta/assets/half_cheetah.xml'
+
