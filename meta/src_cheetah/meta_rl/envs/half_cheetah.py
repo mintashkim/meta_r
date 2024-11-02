@@ -16,7 +16,7 @@ class HalfCheetahEnv(MujocoEnv, utils.EzPickle):
     def __init__(self, **kwargs):
         self.observation_space = Box(low=-np.inf, high=np.inf, shape=(17,), dtype=np.float64)
 
-        self.xml_file: str = "/Users/mintaekim/Desktop/HRL/Quadrotor/quadrotor_meta_fucked/meta/assets/half_cheetah.xml"
+        self.xml_file: str = "../../../assets/half_cheetah.xml"
         self.frame_skip: int = 5
         self.reset_noise_scale: float = 1.0
 
