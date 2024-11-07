@@ -51,6 +51,8 @@ if __name__ == "__main__":
         else torch.device("cpu")
     )
 
+    device: torch.device = torch.device("cpu")
+
     agent = TRPO(
         observ_dim=observ_dim,
         action_dim=action_dim,

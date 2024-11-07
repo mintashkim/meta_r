@@ -91,7 +91,7 @@ class MetaLearner:
                 load_file_name,
                 "checkpoint_" + str(load_ckpt_num) + ".pt",
             )
-            ckpt = torch.load(ckpt_path)
+            ckpt = torch.load(ckpt_path, map_location=torch.device('cpu'))  # Remove map_location if using cuda
 
             self.agent.policy.load_state_dict(ckpt["policy"])
 
