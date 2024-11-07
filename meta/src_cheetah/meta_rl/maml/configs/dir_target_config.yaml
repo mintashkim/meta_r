@@ -4,13 +4,10 @@
 # ----------
 # 메타-트레이닝에 대한 태스크들의 수
 train_tasks: 2
-
 # 메타-테스팅에 대한 태스크들이 수
 test_tasks: 2
-
 # 정책 네트워크에서 사용되는 은닉 유닛의 수
 policy_hidden_dim: 64
-
 # 정책 네트워크에서 사용되는 은닉 유닛의 수
 value_function_hidden_dim: 32
 
